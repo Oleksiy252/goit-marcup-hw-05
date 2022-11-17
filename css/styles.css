@@ -19,6 +19,19 @@ body{
         color: #212121;
 }
 
+.container{
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+}
+
+.header{
+        padding-top: 24px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #ECECEC;
+
+}
 .logo-part-blue{
         color: #2196F3;
 }
@@ -93,10 +106,17 @@ body{
 
 .main-nav{
         list-style: none;
+        margin: 94px 215px 94px 215px;
+}
+
+.main-nav-item{
+        width: 270px;
+        height: 98px;
 }
 
 .hero{
-        background-color: #2F303A;;
+        background-color: #2F303A;
+        padding: 200px 452px 280px 452px;
 }
 
 .h1{
@@ -107,6 +127,9 @@ body{
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
+        margin-bottom: 30px;
+        width: 696px;
+        height: 120px;
 }
 
 .main-button{
@@ -120,6 +143,9 @@ body{
         text-align: center;
         letter-spacing: 0.06em;
         cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 32px 10px 32px;
 }
 
 .main-button:hover{
@@ -156,6 +182,7 @@ body{
         line-height: 1.142;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-bottom: 10px;
 }
 
 .h3-feature-list{
