@@ -24,6 +24,7 @@ body{
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
+        border: 1px solid #ff0000;
 }
 
 .header{
@@ -104,9 +105,13 @@ body{
         color: #2196F3;
 }
 
+.section{
+        padding: 94px 215px;
+}
+
 .main-nav{
         list-style: none;
-        margin: 94px 215px 94px 215px;
+
 }
 
 .main-nav-item{
@@ -116,7 +121,7 @@ body{
 
 .hero{
         background-color: #2F303A;
-        padding: 200px 452px 280px 452px;
+        padding: 200px 452px;
 }
 
 .h1{
@@ -127,6 +132,7 @@ body{
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
+        margin: 0 auto;
         margin-bottom: 30px;
         width: 696px;
         height: 120px;
@@ -162,10 +168,12 @@ body{
         line-height: 1.166;
         text-align: center;
         letter-spacing: 0.03em;
+        margin-bottom: 50px;
 }
 
 .team-background{
-        background-color: #F5F4FA;;
+        background-color: #F5F4FA;
+        padding: 94px 215px;
 }
 
 .h2-team{
@@ -193,12 +201,24 @@ body{
         color: #757575;
 }
 
+.team-card{
+        width: 270px;
+        height: 368px;
+        left: 215px;
+        top: 1632px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+
 .team-list{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.1875;
         text-align: center;
         letter-spacing: 0.03em;
+        margin-top: 30px;
+        margin-bottom: 10px;
 }
 
 .team-list-rank{
@@ -245,11 +265,18 @@ body{
 }
 
 .footer-background{
-        background-color: #2F303A;;
+        background-color: #2F303A;
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 
 .footer-nav{
         list-style: none;
+        margin-top: 20px;
+}
+
+.indent{
+        margin-bottom: 9px;
 }
 
 .address{
