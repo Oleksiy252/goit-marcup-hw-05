@@ -19,19 +19,28 @@ body{
         color: #212121;
 }
 
+img{
+        display: block;
+}
+
 .container{
         width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-        border: 1px solid #ff0000;
+        outline: 1px solid #ff0000;
+}
+
+.header-container{
+        display: flex;
+        align-items: center;
 }
 
 .header{
         padding-top: 24px;
         padding-bottom: 25px;
         border-bottom: 1px solid #ECECEC;
-
+        display: flex;
 }
 .logo-part-blue{
         color: #2196F3;
@@ -46,6 +55,7 @@ body{
         text-decoration: none;
         font-family: raleway;
         text-decoration: none;
+        margin-right: 93px;
 }
 
 .logo-part-white{
@@ -59,8 +69,14 @@ body{
         text-decoration: none;
 }
 
+.navigation{
+        margin-right: auto;
+}
+
 .header-nav{
-    list-style: none;
+        list-style: none;
+        display: flex;
+        gap: 50px;
 }
 
 .header-nav-link{
@@ -111,7 +127,18 @@ body{
 
 .main-nav{
         list-style: none;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+}
 
+.main-nav-portfolio{
+        width: 575px;
+        height: 54px;
+        margin: 0 auto;
+        margin-bottom: 34px;
+        display: flex;
+        gap: 8px;
 }
 
 .main-nav-item{
@@ -144,10 +171,12 @@ body{
         font-weight: 700;
         font-size: 16px;
         line-height: 1.875;
-        display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-color: transparent;
         cursor: pointer;
         display: block;
         margin: 0 auto;
@@ -160,10 +189,12 @@ body{
 
 .main-button:focus {
         color: #2196F3;
+        letter-spacing: 0.06em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .h2-occupation{
-         font-weight: 700;
+        font-weight: 700;
         font-size: 36px;
         line-height: 1.166;
         text-align: center;
@@ -182,6 +213,7 @@ body{
         line-height: 1.166;
         text-align: center;
         letter-spacing: 0.03em;
+        margin-bottom: 50px;
 }
 
 .h3-feature{
@@ -211,6 +243,16 @@ body{
         border-radius: 0px 0px 4px 4px;
 }
 
+
+.portfolio-card{
+        width: 370px;
+        height: 404px;
+        left: 215px;
+        top: 262px;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+}
+
 .team-list{
         font-weight: 500;
         font-size: 16px;
@@ -232,17 +274,27 @@ body{
 
 .work-sections{
         font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.625;
-        text-align: center;
-        letter-spacing: 0.03em;
+        min-width: 73px;
+        height: 38px;
+        left: 593px;
+        top: 174px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        border-color: transparent;
         cursor: pointer;
+        padding: 6px 22px;
 }
 
 .work-sections:hover{
         color: #FFFFFF;
-        background-color: #2196F3;;
+        min-width: 73px;
+        height: 38px;
+        left: 512px;
+        top: 174px;
+        background: #2196F3;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        padding: 6px 22px;
 }
 
 .work-sections:focus {
