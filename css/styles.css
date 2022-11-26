@@ -152,6 +152,10 @@ img{
         padding: 200px 0px;
 }
 
+.section-peculiarities{
+        padding-top: 94px;
+}
+
 .h1{
         font-weight: 900;
         font-size: 44px;
@@ -310,7 +314,7 @@ img{
         border-left: 1px solid #EEEEEE;
         border-right: 1px solid #EEEEEE;
         border-bottom: 1px solid #EEEEEE;
-        padding-bottom: 20px;
+        padding: 20px;
 }
 
 .work-example{
@@ -319,7 +323,6 @@ img{
         line-height: 2.000;
         letter-spacing: 0.06em;
         margin-bottom: 4px;
-        padding-top: 20px;
         padding-left: 20px;
 }
 
