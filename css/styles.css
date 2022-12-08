@@ -28,7 +28,7 @@ img{
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-        outline: 1px solid #ff0000;
+        /* outline: 1px solid #ff0000; */
 }
 
 .header-container{
@@ -110,7 +110,7 @@ img{
 }
 
 .mail-icon{
-        fill: #757575;
+        fill: currentColor;
 }
 
 .mail-icon:hover,
@@ -126,6 +126,8 @@ img{
         letter-spacing: 0.02em;
         color: #757575;
         text-decoration: none;
+        display: flex;
+        gap: 10px;
 }
 
 .mailto-header:hover,
@@ -148,7 +150,7 @@ img{
 
 
 .tel-icon{
-        fill: #757575;
+        fill: currentColor;
 }
 
 .tel-icon:hover,
@@ -163,6 +165,8 @@ img{
         letter-spacing: 0.02em;
         color: #757575;
         text-decoration: none;
+        display: flex;
+        gap: 10px;
 }
 
 .tel-header:hover,
@@ -203,7 +207,7 @@ img{
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)     
         ),
-        url('/images/hero_image_00.jpg');
+        url('../images/hero_image_00.jpg');
 
 }
 
@@ -289,53 +293,49 @@ img{
 .list-background-antenna {
         width: 270px;
         height: 120px;
-        left: 215px;
-        top: 774px;
         background: #F5F4FA;
         border-radius: 4px;
         margin-bottom: 30px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-image: url('/images/antenna\ 1.svg');
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.main-nav-icon{
+        height: 70px;
 }
 
 .list-background-clock {
         width: 270px;
         height: 120px;
-        left: 215px;
-        top: 774px;
         background: #F5F4FA;
         border-radius: 4px;
         margin-bottom: 30px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-image: url('/images/clock\ 1.svg');
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .list-background-diagram {
         width: 270px;
         height: 120px;
-        left: 215px;
-        top: 774px;
         background: #F5F4FA;
         border-radius: 4px;
         margin-bottom: 30px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-image: url('/images/diagram\ 1.svg');
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .list-background-astronaut {
         width: 270px;
         height: 120px;
-        left: 215px;
-        top: 774px;
         background: #F5F4FA;
         border-radius: 4px;
         margin-bottom: 30px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-image: url('/images/astronaut\ 1.svg');
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .h3-feature{
@@ -442,13 +442,13 @@ img{
 .client-soc-item {
         width: 170px;
         height: 92px;
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
 }
 
 .client-link {
         width: 100%;
         height: 100%;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
         background-color: transparent;
         display: flex;
         align-items: center;
@@ -458,14 +458,13 @@ img{
 .client-link:hover,
 .client-link:focus {
         border: 1px solid #2196F3;
-        border-radius: 4px;
 }
 
 .client-icon {
         fill: #AFB1B8;
 }
 
-.client-link:hover .client-icon {
+.client-link:hover .client-icon, .client-link:focus .client-icon {
         fill: #2196F3;
 }
 
