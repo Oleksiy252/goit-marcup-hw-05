@@ -24,9 +24,9 @@ img{
 }
 
 .container{
-        width: 1128px;
-        /* padding-left: 15px;
-        padding-right: 15px; */
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 0 auto;
         /* outline: 1px solid #ff0000; */
 }
@@ -47,24 +47,24 @@ img{
 }
 
 .logo-part-black{
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.192;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.333;
         letter-spacing: 0.03em;
         color: #000000;
         text-decoration: none;
         font-family: raleway;
         text-decoration: none;
-        margin-right: 93px;
+        margin-right: 76px;
 }
 
 .logo-part-white{
         display: inline-block;
         font-family: 'Raleway';
         font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.192;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.133;
         letter-spacing: 0.03em;   
         color: #FFFFFF;
         text-decoration: none;
@@ -78,14 +78,14 @@ img{
 .header-nav{
         list-style: none;
         display: flex;
-        gap: 50px;
+        gap: 40px;
 }
 
 .header-nav-link{
         color: #212121;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 1.142;
+        font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-decoration: none;
         transition-property: color;
@@ -118,7 +118,7 @@ img{
         transform: translate(-4%);
         background-color: #404BBF;
         border-radius: 2px;
-        margin-top: 28px;
+        margin-top: 22px;
         position: absolute;
 }
 
@@ -127,10 +127,10 @@ img{
         display: block;
         width: 66px;
         height: 4px;
-        transform: translate(-7%);
+        transform: translate(-2%);
         background-color: #404BBF;
         border-radius: 2px;
-        margin-top: 28px;
+        margin-top: 22px;
         position: absolute;
 }
 
@@ -162,9 +162,9 @@ img{
 }
 
 .mailto-header{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.142;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #757575;
         text-decoration: none;
@@ -207,9 +207,9 @@ img{
 }
 
 .tel-header{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.142;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #757575;
         text-decoration: none;
@@ -226,7 +226,7 @@ img{
 }
 
 .section{
-        padding: 94px 0px;
+        padding: 120px 0px;
 }
 
 .main-nav{
@@ -251,7 +251,7 @@ img{
 
 .hero{
         background-color:#C4C4C4;
-        padding: 200px 0px;
+        padding: 188px 0px;
         background-repeat: no-repeat;
         background-position: center;
         background-image: linear-gradient(
@@ -259,25 +259,26 @@ img{
                 rgba(46, 47, 66, 0.7)     
         ),
         url('../images/people_office_1.jpg');
+        max-width: 1440px;
 
 }
 
 .section-peculiarities{
-        padding-top: 94px;
+        padding-top: 120px;
 }
 
-.h1{
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.363;
+.hero-title{
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.071;
         text-align: center;
-        letter-spacing: 0.06em;
+        letter-spacing: 0.02em;
         /* text-transform: uppercase; */
         color: #FFFFFF;
         margin: 0 auto;
-        margin-bottom: 30px;
-        width: 494px;
-        /* width: 696px; */
+        margin-bottom: 48px;
+        width: 496px;
 }
 
 .visually-hidden {
@@ -292,11 +293,12 @@ img{
 }
 
 .main-button{
+        font-family: 'Roboto';
         background-color: #4D5AE5;
         color: #FFFFFF;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 1.875;
+        line-height: 1.5;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
@@ -306,7 +308,7 @@ img{
         cursor: pointer;
         display: block;
         margin: 0 auto;
-        padding: 10px 32px 10px 32px;
+        padding: 16px 32px 16px 32px;
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -350,7 +352,7 @@ img{
         height: 120px;
         background: #F5F4FA;
         border-radius: 4px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -365,7 +367,7 @@ img{
         height: 120px;
         background: #F5F4FA;
         border-radius: 4px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -376,7 +378,7 @@ img{
         height: 120px;
         background: #F5F4FA;
         border-radius: 4px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -387,26 +389,26 @@ img{
         height: 120px;
         background: #F5F4FA;
         border-radius: 4px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
 }
 
 .h3-feature{
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.142;
-        letter-spacing: 0.03em;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
         /* text-transform: uppercase; */
-        margin-bottom: 10px;
+        margin-bottom: 8px;
 }
 
 .h3-feature-list{
         font-weight: 400;
-        font-size: 14px;
-        line-height: 1.714;
-        letter-spacing: 0.03em;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #757575;
 }
 
@@ -415,9 +417,16 @@ img{
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
-        padding-bottom: 30px;
+        padding-bottom: 32px;
 }
 
+.portfilio-section{
+        width: 1128px;
+        height: 420px;
+        display: flex;
+        gap: 24px;
+        margin-bottom: 48px;
+}
 
 .portfolio-card{
         width: 360px;
@@ -459,40 +468,42 @@ img{
 }
 
 .team-list{
+        font-family: 'Roboto';
         font-weight: 500;
-        font-size: 16px;
-        line-height: 1.1875;
+        font-size: 20px;
+        line-height: 1.2;
         text-align: center;
-        letter-spacing: 0.03em;
-        margin-top: 30px;
-        margin-bottom: 10px;
+        letter-spacing: 0.02em;
+        margin-top: 32px;
+        margin-bottom: 8px;
 }
 
 .team-list-rank{
+        font-family: 'Roboto';
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.1875;
+        line-height: 1.5;
         text-align: center;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.02em;
         color: #757575;
-        margin-bottom: 16px;
+        margin-bottom: 8px;
 }
 
 .team-soc-list{
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 24px;
 }
 
 .team-soc-item{
-        width: 44px;
-        height: 44px;
+        width: 40px;
+        height: 40px;
 }
 
 .taem-soc-link{
         width: 100%;
         height: 100%;
-        background-color: transparent;
+        background-color: #4D5AE5;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -504,22 +515,22 @@ img{
 
 .taem-soc-link:hover,
 .taem-soc-link:focus{
-        background-color: #4D5AE5;
+        background-color: #404BBF;
 }
 
 .team-soc-icon{
-        fill: #AFB1B8;
+        fill: #F4F4FD;
         transition-property: fill;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .taem-soc-link:hover .team-soc-icon {
-        fill: #ffffff;
+        fill: #F4F4FD;
 }
 
 .taem-soc-link:focus .team-soc-icon {
-        fill: #ffffff;
+        fill: #F4F4FD;
 }
 
 .client-soc-list {
@@ -567,14 +578,16 @@ img{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
-        min-width: 73px;
-        height: 38px;
-        background: #F5F4FA;
-        border: 1px solid #E7E9FC;;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        min-width: 69px;
+        color: #4D5AE5;
+        background: #F4F4FD;
+        border: 1px solid #E7E9FC;
         border-radius: 4px;
         /* border-color: transparent; */
         cursor: pointer;
-        padding: 6px 22px;
+        padding: 12px 24px;
         transition-property: background-color, color, box-shadow;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -583,14 +596,16 @@ img{
 .work-sections:hover{
         color: #FFFFFF;
         min-width: 73px;
-        height: 38px;
         left: 512px;
         top: 174px;
         background-color: #404BBF;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        box-shadow: 
+                0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 2px 1px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
         border-color: transparent;
-        padding: 6px 22px;
+        padding: 12px 24px;
 }
 
 .work-sections:focus {
@@ -601,23 +616,23 @@ img{
         border-left: 1px solid #EEEEEE;
         border-right: 1px solid #EEEEEE;
         border-bottom: 1px solid #EEEEEE;
-        padding: 20px;
+        padding: 32px 16px;
 }
 
 .work-example{
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.000;
-        letter-spacing: 0.06em;
-        margin-bottom: 4px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 
 .work-description{
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.875;
-        letter-spacing: 0.03em;       
-        color: #757575;
+        line-height: 1.5;
+        letter-spacing: 0.02em;       
+        color: #434455;
 }
 
 .footer-background{
@@ -728,8 +743,8 @@ img{
 }
 
 .footer-soc-item{
-        width: 44px;
-        height: 44px;
+        width: 40px;
+        height: 40px;
 }
 
 .footer-soc-link{
@@ -747,7 +762,7 @@ img{
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-        background-color: #4D5AE5;
+        background-color: #31D0AA;
 }
 
 .footer-soc-icon{
@@ -764,8 +779,8 @@ img{
 
 .modal{
         position: absolute;
-        width: 528px;
-        min-height: 581px;
+        width: 408px;
+        min-height: 576px;
         background-color: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
@@ -782,17 +797,40 @@ img{
 
 .modal-close{
         position: absolute;
-        right: 8px;
-        top: 8px;
-        width: 30px;
-        height: 30px;
-        border: 1px solid rgba(0, 0, 0, 0.1);;
+        right: 24px;
+        top: 24px;
+        width: 24px;
+        height: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
-        background-color: transparent;
+        background-color: #E7E9FC;
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover,
+.modal-close:focus {
+        background-color: #404BBF;
+}
+
+.modal-close-icon{
+        fill: #000000;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+        
+.modal-close:hover .modal-close-icon {
+        fill: #ffffff;
+}
+        
+.modal-close:focus .modal-close-icon {
+        fill: #ffffff;
 }
 
 .is-hidden{
