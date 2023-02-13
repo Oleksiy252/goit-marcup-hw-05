@@ -1,3 +1,3 @@
-# goit-markup-hw-06_test
+# goit-markup-hw-06
 
-Домашнє завдання #6_test
+Домашнє завдання #6
