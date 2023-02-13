@@ -260,7 +260,7 @@ img{
         ),
         url('../images/people_office_1.jpg');
         max-width: 1440px;
-
+        margin: 0 auto;
 }
 
 .section-peculiarities{
@@ -588,14 +588,14 @@ img{
         /* border-color: transparent; */
         cursor: pointer;
         padding: 12px 24px;
-        transition-property: background-color, color, box-shadow;
+        transition-property: background-color, color, box-shadow, border-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .work-sections:hover{
         color: #FFFFFF;
-        min-width: 73px;
+        min-width: 69px;
         left: 512px;
         top: 174px;
         background-color: #404BBF;
