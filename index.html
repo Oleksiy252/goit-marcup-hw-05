@@ -305,7 +305,7 @@
     <footer class="footer-background">
         <div class="container">
             <ul class="footer-block">
-                <li>
+                <li class="footer-logo-block">
                    <div class="advice">
                         <a class="logo-part-white" href="./index.html"><span class="logo-part-blue">WEB</span>STUDIO</a>
                         <p class="advice-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
@@ -347,15 +347,82 @@
                         </li>
                     </ul>
                 </li>
+                <li class="footer-subscribe-block">
+                    <div>
+                        <h3 class="footer-soc-title">Subscribe</h3>
+                        <form class="footer-booking-form" name="footer_booking_form" autocomplete="on">
+                            <input class="booking-form-input" type="mail" name="user_mail" placeholder="E-mail">
+                            <div class="footer-button-subscribe">
+                                <button class="subscribe-button" type="subscribe_button">Subscribe</button>
+                                <svg class="booking-submit-icon" width="24" height="20">
+                                    <use href="./images/icons.svg#icon-icon-send"></use>
+                                </svg>
+                            </div>
+                        </form>
+                    </div>
+                </li>
             </ul>
         </div>
     </footer>
+
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
             <svg class="modal-close-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-close-black-18dp"></use>
         </button>
+        <div>
+            <p class="modal-soc-title">Leave your contacts and we will call you back</p>
+            <form class="modal-booking-form" name="modal_booking_form" autocomplete="on">
+                <label class="booking-form-label">
+                    <span>Name</span>
+                    <div class="booking-form-group">
+                        <input class="booking-form-field" type="text" name="user_name">
+                        <svg class="booking-form-icon" width="12" height="12">
+                            <use href="./images/icons.svg#icon-modal-person-black"></use>
+                        </svg>
+                    </div>
+                </label>
+
+                <label class="booking-form-label">
+                    <span>Phone</span>
+                    <div class="booking-form-group">
+                        <input class="booking-form-field" type="tel" name="user_tel">
+                        <svg class="booking-form-icon" width="13" height="13">
+                            <use href="./images/icons.svg#icon-modal-phone-black"></use>
+                        </svg>
+                    </div>
+                </label>
+
+                <label class="booking-form-label">
+                    <span>Email</span>
+                    <div class="booking-form-group">
+                        <input class="booking-form-field" type="mail" name="user_mail">
+                        <svg class="booking-form-icon" width="15" height="12">
+                            <use href="./images/icons.svg#icon-modal-email-black"></use>
+                        </svg>
+                    </div>
+                </label>
+
+                <label class="booking-form-label">
+                    <span>Comment</span>
+                    <div class="booking-form-group">
+                        <textarea class="booking-text-field" name="input" rows="6" placeholder="Text input"></textarea>
+                    </div>
+                </label>
+
+                <label class="booking-form-agreement">
+                    <input class="booking-form-checkbox" type="checkbox" name="checkbox">
+                    <span class="manual-check-button"></span>
+                    <span class="booking-form-desk">
+                        I accept the terms and conditions of the 
+                        <a class="booking-form-link" href="Privacy Policy">Privacy Policy</a>
+                    </span> 
+                </label>
+
+                <button class="submit-button" type="submit">Send</button>
+            </form>
+        </div>
     </div>
 </div>
 <script src="./js/modal.js"></script>
