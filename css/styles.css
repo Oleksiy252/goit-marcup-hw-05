@@ -842,7 +842,7 @@ img{
 .modal{
         position: absolute;
         width: 408px;
-        min-height: 576px;
+        min-height: 584px;
         padding: 72px 24px 24px;
         background-color: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -928,6 +928,7 @@ img{
 
 .booking-form-group{
         position: relative;
+        margin-top: 4px;
 }
 
 .booking-form-field{
@@ -996,26 +997,32 @@ img{
 }
 
 .booking-form-agreement{
+        position: relative;
         display: flex;
-        align-content: center;
         gap: 8px;
         margin-bottom: 24px;
 }
 
 .booking-form-checkbox{
-        visibility: hidden;
-        
-        
+        /* width: 16px;
+        height: 16px;
+        visibility: hidden; */
+        position: absolute;
+        clip: rect(0 0 0 0);
+        width: 1px;
+        height: 1px;
+        gap: 8;
 }
 
-.manual-check-button{
+/* .manual-check-button{
         position: absolute;
         width: 16px;
         height: 16px;
         border: 1.25px solid #2E2F42;
         border-radius: 2px;
         cursor: pointer;
-}
+        background-image: url(../images/icons.svg#icon-manual-checkbox-1);
+} */
 
 .manual-check-button:focus{
         position: absolute;
@@ -1024,15 +1031,45 @@ img{
         border: 1.25px solid #2E2F42;
         border-radius: 2px;
         background-color: #404BBF;
-        background-image: url('../images/icons.svg#icon-manual-checkbox');
+        /* background-image: url('./images/icons.svg#icon-manual-checkbox-1'); */
 }
 
-.booking-form-desk{
+/* .manual-check-button::before{
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border: 1.25px solid #2E2F42;
+        border-radius: 2px;
+        background-color: #404BBF;
+        background-image: url('./images/icons.svg#icon-manual-checkbox-1');
+} */
+
+.booking-form-desk {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        overflow: hidden;
+        border: 1.25px solid #2E2F42;
+        border-radius: 2px;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+}
+
+.form-desk-text{
         font-weight: 400;
         font-size: 12px;
         line-height: 1.333;
         letter-spacing: 0.04em;
         color: #757575;
+        margin-left: 25px;
+}
+
+.booking-form-checkbox:checked + .booking-form-desk {
+        background-color: #404BBF;
+        background-image: url('../images/man-check-3.svg');
+        
 }
 
 .booking-form-link{
@@ -1046,7 +1083,7 @@ img{
 
 .submit-button{
         position: absolute;
-        bottom: -80px;
+        bottom: -75px;
         left: 90px;
         width: 169px;
         height: 56px;
