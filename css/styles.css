@@ -1067,7 +1067,7 @@ img{
 }
 
 .booking-form-checkbox:checked + .booking-form-desk {
-        border: 1.25px solid transparent;
+        border: 1.25px solid #404BBF;
         border-radius: 2px;
         background-color: #404BBF;
         background-image: url('../images/man-check-3.svg');
